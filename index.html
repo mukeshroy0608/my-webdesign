@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="top-header">
+            <nav class="navbar navbar-expand-lg bg-danger">
+                <div class="container-fluid">
+                    <a class="navbar-brand btn-navbar " href="#"><img class="image rounded-circle" src="img/user.jpg" 
+                      alt="" height="70px" width="70px" ></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active text-white rounded-pill  px-3" aria-current="page" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" 
+                          width="25" height="25" fill="currentColor" 
+                          class="bi bi-person-fill me-2" viewBox="0 0 16 16">
+                          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                          </svg>PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white rounded-pill  px-3" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" 
+                            class="bi bi-trophy me-2" viewBox="0 0 16 16">
+                            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+                          </svg>SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white rounded-pill  px-3" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" 
+                            class="bi bi-card-image me-2" viewBox="0 0 16 16">
+                            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                            <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+                          </svg>WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white rounded-pill  px-3" href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" 
+                              class="bi bi-file-earmark-text me-2" viewBox="0 0 16 16">
+                              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                            </svg>RESUME</a>
+                          </li>
+                        </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                
+                
+              </nav>
+
+        </section>
+    </header>
+    <main>
+      <section class="main-body container-fluid">
+        <div class="container d-flex">
+          <div class="row frist-row">
+            <div class="col-md-6 offset-md-2">
+              <img class="profile-img" src="img/Mukesh.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 offset-md-2 mb-2 profile">
+            <h1 class="main-heading1 fs-1">Mukesh Roy</h1>
+            <h3 class="text-white fs-3">Web Designer</h3>
+            <p class="text-white mt-5 fs-4"> Hello I am Mukesh Roy Web Designer from Bangladesh. 
+              If yopu have something to be done just call my name and I will be there. :-) </p>
+              <a class="hire-me btn text-white bg-info fs-2 mx-4 px-5 rounded-pill" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" 
+                class="bi bi-send-fill me-2" viewBox="0 0 16 16">
+                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+              </svg>Hire Me </a> 
+            </div>
+          </div>
+      </section>
+    </main>
+     <section class="social-media">
+      <div class="row social">
+        <ul class="social-icons">
+          <li><a href="#"><img src="img/fb.png" alt=""></a></li>
+          <li><a href="#"><img src="img/tw.png" alt=""></a></li>
+          <li><a href="#"><img src="img/go.png" alt=""></a></li>
+          <li><a href="#"><img src="img/pin.png" alt=""></a></li>
+          <li><a href="#"><img src="img/st.png" alt=""></a></li>
+          <li><a href="#"><img src="img/dr.png" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

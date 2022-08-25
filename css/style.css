@@ -1,0 +1,45 @@
+
+
+.navbar .navbar-brand{
+    margin-left: 140px;
+    padding-left: 70px;
+}
+.navbar-brand .image{
+    border: 5px solid white;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    margin-left: 100px ;   
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: black;
+}
+.main-body{
+    background-color:#203747 ;
+}
+.profile-img{
+    margin: 20px 0px 0px 90px;
+}
+.profile{
+    margin-top: 40px;
+   
+}
+.main-heading1{
+    /* font-size: 40px; */
+    color: #39d083;
+}
+.social-media{
+    background-color:#203747 ;
+    
+}
+.social {
+	text-align:center;
+	padding-bottom:40px;
+}
+.social-icons {
+	margin:60px 0;
+}
+ .social-icons li {
+	 list-style:none;
+	display:inline-block; 
+	 margin:10px; 
+}
